@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="card card-speech">
+            <div class="card-body">
+                <h3 class="card-title">This speech has been generated with Tensorflow.js!</h3>
+                <p class="card-text" id="trump-speech"></p>
+                <a id="trump-generate" href="#" class="btn btn-secondary">Generate new speech!</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="lib/jquery.js"></script>
+    <script src="lib/lodash.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.js"></script>
+
+    <script src="lib/tfjs.js"></script>
+    <script src="data/words.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
